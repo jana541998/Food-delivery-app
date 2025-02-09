@@ -62,7 +62,7 @@
 .footer{
   display: flex;
   justify-content: center;
-  background-color: rgb(204, 195, 195);
+  
 }
 .search{
   background-color: lightyellow;
