@@ -32,7 +32,7 @@ const Body =()=>{
         <div className="search">
             <input type ="text" className="search-input" placeholder="Search" value={searchTxt} onChange={(e)=>{setSearchTxt(e.target.value);}}/>
             <button
-                className="search-button"
+                className="search-btn"
                 onClick={() => {
                    
                     const data = filterData(searchTxt);
